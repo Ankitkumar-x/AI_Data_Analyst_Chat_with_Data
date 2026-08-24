@@ -4,10 +4,10 @@ An LLM-powered conversational analytics platform that allows users to upload str
 
 ## Live Demo
 
-Frontend:
+**Frontend:**  
 https://ai-chat-with-data.vercel.app
 
-Backend API:
+**Backend API:**  
 https://ai-data-analyst-chat-with-data.onrender.com/docs
 
 ## Features
@@ -31,69 +31,22 @@ https://ai-data-analyst-chat-with-data.onrender.com/docs
 ## System Architecture
 
 ```text
-                    User
-                      |
-                      v
-              React + Vite
-             Vercel Frontend
-                      |
-                      | HTTPS / REST API
-                      v
-             FastAPI Backend
-                Render
-                      |
-          +-----------+-----------+
-          |           |           |
-          v           v           v
-       Pandas      Agent       Groq API
-      Analytics    Tools        LLM
-          |
-          v
-      Dataset
-     Processing
-
-
-
-## Technology Stack
-Frontend
-React
-Vite
-Plotly
-JavaScript
-CSS
-Backend
-Python
-FastAPI
-Pandas
-NumPy
-Pydantic
-Uvicorn
-AI / Analytics
-Groq API
-GPT-OSS-120B
-Prompt Engineering
-Function / Tool Calling
-Statistical Analysis
-Agentic Reasoning
-Deployment
-Vercel
-Render
-GitHub
-Analytical Capabilities
-
-The platform supports operations including:
-
-Sum
-Average
-Minimum
-Maximum
-Count
-Top-N analysis
-Group comparison
-Conditional filtering
-Percentage share
-Correlation analysis
-Comparative analysis
-Time-series analysis
-Statistical summaries
-Business-oriented insight generation
+                         User
+                           |
+                           v
+                    React + Vite
+                   Vercel Frontend
+                           |
+                           | HTTPS / REST API
+                           v
+                    FastAPI Backend
+                        Render
+                           |
+              +------------+------------+
+              |            |            |
+              v            v            v
+           Pandas       Agent       Groq API
+          Analytics      Tools         LLM
+              |
+              v
+        Dataset Processing
