@@ -1,6 +1,6 @@
 # AI Data Analyst — LLM-Powered Conversational Analytics
 
-An LLM-powered conversational analytics platform that allows users to upload structured datasets and interact with them using natural-language questions. The system combines agentic tool calling, Pandas analytics, and LLM-driven insights to enable seamless data exploration and visualization.
+An LLM-powered conversational analytics platform that allows users to upload structured datasets and interact with them using natural-language questions. The system combines agentic tool calling, Pandas analytics, and LLM reasoning to deliver insightful conversational data analysis.
 
 ## Live Demo
 
@@ -148,3 +148,32 @@ The project includes automated tests covering:
 - Environment-based configuration
 - CORS and upload validation
 - Error handling and temporary-file cleanup
+
+## Deployment
+
+### Frontend
+
+Deployed using Vercel:
+
+https://ai-chat-with-data.vercel.app
+
+### Backend
+
+Deployed using Render:
+
+https://ai-data-analyst-chat-with-data.onrender.com
+
+### API Documentation
+
+https://ai-data-analyst-chat-with-data.onrender.com/docs
+
+## Future Improvements
+
+- Persistent dataset and session storage
+- Authentication and user workspaces
+- Streaming AI responses
+- Background analysis jobs
+- Larger dataset support
+- Query execution caching
+- Advanced semantic analytics
+- Cloud database integration
