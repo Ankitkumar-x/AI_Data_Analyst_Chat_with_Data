@@ -51,3 +51,49 @@ https://ai-data-analyst-chat-with-data.onrender.com/docs
           v
       Dataset
      Processing
+
+
+
+## Technology Stack
+Frontend
+React
+Vite
+Plotly
+JavaScript
+CSS
+Backend
+Python
+FastAPI
+Pandas
+NumPy
+Pydantic
+Uvicorn
+AI / Analytics
+Groq API
+GPT-OSS-120B
+Prompt Engineering
+Function / Tool Calling
+Statistical Analysis
+Agentic Reasoning
+Deployment
+Vercel
+Render
+GitHub
+Analytical Capabilities
+
+The platform supports operations including:
+
+Sum
+Average
+Minimum
+Maximum
+Count
+Top-N analysis
+Group comparison
+Conditional filtering
+Percentage share
+Correlation analysis
+Comparative analysis
+Time-series analysis
+Statistical summaries
+Business-oriented insight generation
