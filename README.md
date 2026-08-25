@@ -128,7 +128,7 @@ Final Response
 ## Screenshots
 
 ### Analytics Dashboard
-![Analytics Dashboard](docs/screenshots/dashboard.png)
+![Analytics Dashboard](C:\Users\nikit\OneDrive\ドキュメント\Pictures\Screenshots 1\dashboard.png)
 
 ### AI Data Analyst
 ![AI Analysis](docs/screenshots/ai-analysis.png)
