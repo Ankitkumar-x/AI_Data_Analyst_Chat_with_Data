@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from groq import RateLimitError
 from pydantic import BaseModel, Field
 
 from app.ai.agent import analyze_question
@@ -56,6 +57,12 @@ async def chat(request: ChatRequest):
         raise HTTPException(
             status_code=400,
             detail=str(e)
+        )
+
+    except RateLimitError:
+        raise HTTPException(
+            status_code=429,
+            detail="The AI model has reached its current usage limit. Please try again shortly."
         )
 
     except Exception:

@@ -421,7 +421,7 @@ def analyze_question(
     chart_data = None
 
     # Allow the agent to perform multiple tool-calling rounds.
-    for _ in range(5):
+    for _ in range(10):
 
         response = client.chat.completions.create(
             model=MODEL_NAME,
@@ -451,7 +451,10 @@ def analyze_question(
 
             tool_df = working_df
 
-            if tool_call.function.name == "group_insight":
+            if tool_call.function.name in [
+                "group_insight",
+                "percentage_share"
+            ]:
                 tool_df = df
 
             tool_result = execute_tool_call(
