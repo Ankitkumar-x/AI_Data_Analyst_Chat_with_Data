@@ -1,6 +1,6 @@
 # AI Data Analyst — LLM-Powered Conversational Analytics
 
-An LLM-powered conversational analytics platform that allows users to upload structured datasets and interact with them using natural-language questions. The system combines agentic tool calling, Pandas-based analytics, and generative AI to deliver actionable insights through a conversational interface.
+An LLM-powered conversational analytics platform that allows users to upload structured datasets and interact with them using natural-language questions. The system combines agentic tool calling, Pandas analytics, and advanced LLM reasoning.
 
 ## Live Demo
 
@@ -128,7 +128,7 @@ Final Response
 ## Screenshots
 
 ### Analytics Dashboard
-![Analytics Dashboard](C:\Users\nikit\OneDrive\ドキュメント\Pictures\Screenshots 1\dashboard.png)
+![Analytics Dashboard](docs/screenshots/dashboard.png)
 
 ### AI Data Analyst
 ![AI Analysis](docs/screenshots/ai-analysis.png)
